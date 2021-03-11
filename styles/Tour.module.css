@@ -1,0 +1,83 @@
+.Underline {
+    border: 1px solid blue;
+    margin-top: 5px;
+}
+
+/* Tour.js */
+.ToursContainer {}
+
+.TourTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.TourMap {}
+
+/* TourList */
+
+.TourListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.TourListDisplay {
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background: #8de894;
+    border-radius: 5%;
+    box-shadow: 9.91px 9.91px 15px #80D387,
+        -9.91px -9.91px 15px #9AFDA1;
+}
+
+.TourListImage {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    justify-content: center;
+}
+
+.TourListBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TourListP {
+    width: 80%;
+}
+
+.TourListButton {
+    width: 100px;
+    height: 50px;
+    border-radius: 5%;
+    background-image: radial-gradient(circle at 56.16% 120.44%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009be95e 75%, #0086e075 100%);
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.TourListButton:active {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid rgb(9, 119, 60);
+}
+
+.TourListPButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(121, 121, 218);
+    font-size: 16px;
+    padding: 5px 25px;
+}
